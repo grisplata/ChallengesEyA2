@@ -1,12 +1,12 @@
 import './App.css';
-import { MultipleCustomHooks } from './components/multipleCustomHooks.jsx/MultipleCustomHooks';
 
-function App() {
-  return (
-    <div className="App">
-      <MultipleCustomHooks />
-    </div>
-  );
+const App = () => {
+  return(
+    <>
+      <h1>¡Hola Mundo!</h1>
+      <p>Bienvenido a React</p>
+    </>
+  )
 }
 
-export default App;
+export default App
